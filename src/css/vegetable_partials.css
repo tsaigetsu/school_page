@@ -5,7 +5,7 @@
 }
 
 .vegetable-title {
-    color: var(--main-text);
+    color: var(--main-text2);
     margin: 0 auto;
     margin-bottom: 40px;
     max-width: 375px;
@@ -46,7 +46,7 @@
 }
 
 .products-vegetable-heading {
-    color: var(--background-2);
+    color: var(--main-text2);
     font-weight: 600;
     font-size: 28px;
     line-height: 1;

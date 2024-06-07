@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  background-image: linear-gradient(rgb(29 37 29 / 70%), rgb(0 100 0 / 0%));
+  background-image: linear-gradient(rgb(29 37 29 / 50%), rgb(29 37 29 / 50%));
   backdrop-filter: blur(10px);
   border-radius: 20px;
 }
@@ -76,8 +76,9 @@
   padding: 16px 32px;
   width: 157px;
   height: 52px;
-  background-color: #7a3145;
+  background-color: #1d1f1b;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   gap: 10px;
   border: none;
@@ -88,7 +89,7 @@
 
 .button-style:hover,
 .button-style:active {
-  background-color: #622133;
+  background-color: #2e312b;
 }
 
 .menu-open-btn {
@@ -310,7 +311,7 @@
     display: flex;
     align-items: center;
     max-width: 1280px;
-    height: 52px;
+    height: 62px;
     padding: 0 100px;
   }
 

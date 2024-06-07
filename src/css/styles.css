@@ -19,8 +19,9 @@
 :root {
   --text: #141414;
   --background: #576f35;
-  --background-2: #7a3145;
+  --background-2: #fff0f4;
   --main-text: #fbfbfb;
+  --main-text-2: #000000;
   --font-family: 'Inter Tight', sans-serif;
 }
 

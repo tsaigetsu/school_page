@@ -1,10 +1,8 @@
 .how-it-works {
   min-width: 320px;
-  background: linear-gradient(
-    to bottom,
-    #7a3145 0% 44.76%,
-    #576f35 44.76% 100%
-  );
+  background: linear-gradient(to bottom,
+      #7a3145 0% 44.76%,
+      #1d1f1b 44.76% 100%);
 }
 
 .visually-hidden {
@@ -81,7 +79,7 @@
   content: counter(number);
   width: 52px;
   height: 52px;
-  background-color: #7a3145;
+  background-color: #1d1f1b;
   border-radius: 50%;
   border: 5px solid #d3bec4;
   flex-shrink: 0;
@@ -116,11 +114,9 @@
 
 @media screen and (min-width: 768px) {
   .how-it-works {
-    background: linear-gradient(
-      to bottom,
-      #7a3145 0% 54.58%,
-      #576f35 54.58% 100%
-    );
+    background: linear-gradient(to bottom,
+        #fff0f4 0% 54.58%,
+        #1d1f1b 54.58% 100%);
   }
 
   .container-how-it-works {
@@ -152,6 +148,7 @@
     line-height: 1.25;
     margin-bottom: 50px;
   }
+
   .text-instruction-hiw {
     font-size: 16px;
     line-height: 1.25;
@@ -164,7 +161,7 @@
 
 @media screen and (min-width: 1280px) {
   .how-it-works {
-    background: linear-gradient(to right, #7a3145 0% 50%, #576f35 50% 100%);
+    background: linear-gradient(to right, #fff0f4 0% 50%, #1d1f1b 50% 100%);
   }
 
   .container-how-it-works {
@@ -178,6 +175,7 @@
   .img-howitworks {
     width: 430px;
   }
+
   .text-instruction-hiw {
     width: 323px;
   }
